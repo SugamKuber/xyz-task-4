@@ -1,0 +1,26 @@
+{
+  "name": "xyz-task-4",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sugam kuber",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.16.2",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/papaparse": "^5.3.15",
+    "prettier": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
